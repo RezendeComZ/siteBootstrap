@@ -1,3 +1,42 @@
-h5, p {
+.carousel {
   text-shadow: 1px 1px 2px black;
+}
+.colAltura {
+  padding: 20px;
+  height: 320px;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between
+}
+.colAltura:hover{
+}
+
+.zoom {
+  transition: 200ms ease-in-out;
+}
+
+.zoom:hover {
+  transform: scale(1.1)
+}
+
+.trio {
+  padding-bottom: 15px;
+}
+.imgUnica {
+  padding: 100px;
+}
+
+.lorem {
+  height: 350px;
+  display: flex;
+}
+
+.texto {
+  margin: auto;
+}
+
+.titulo {
+  text-align: center;
+  padding: 25px 0px ; 
 }
